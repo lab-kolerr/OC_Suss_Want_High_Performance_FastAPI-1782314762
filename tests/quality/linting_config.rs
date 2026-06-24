@@ -1,0 +1,15 @@
+[package]
+name = "auto_api"
+version = "0.1.0"
+edition = "2021"
+
+[profile.dev]
+opt-level = 2
+
+[profile.release]
+opt-level = 3
+
+[workspace]
+
+[dependencies]
+clippy = "0.1"
